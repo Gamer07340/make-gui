@@ -24,7 +24,7 @@ root = tk.Tk()
 root.title("Make Interface")
 
 # Ajout de l'icône
-icon = tk.PhotoImage(file="/usr/local/share/icons/make-gui.png")
+icon = tk.PhotoImage(file="make-gui.png")
 root.tk.call("wm", "iconphoto", root._w, icon)
 
 makefile_path = tk.StringVar()
