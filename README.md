@@ -15,7 +15,7 @@ This script provides a simple graphical user interface (GUI) for executing `make
 * Python 3
 * `tkinter` library (usually included with Python)
 * `make` command-line tool (must be installed and available in the system's PATH)
-* An optional icon file located at `/usr/local/share/icons/make-gui.png`. If the icon file is missing, the script will still function correctly without displaying a custom icon.
+* An optional icon file located at `./make-gui.png`. If the icon file is missing, the script will still function correctly without displaying a custom icon.
 
 ## Usage
 
@@ -70,7 +70,7 @@ The script will execute `make clean all` in the `/home/user/myproject/` director
 ## Icon Installation (Optional)
 
 1.  Create or obtain an icon file named `make-gui.png`.
-2.  Place the icon file in the `/usr/local/share/icons/` directory.
+2.  Place the icon file in the same directory as `make-gui.py`.
 
 ## Notes
 
